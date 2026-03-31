@@ -1,11 +1,11 @@
 :root {
-    --bg: #f8fafc;
+    --bg: #fff5fb;
     --surface: #ffffff;
-    --text: #111827;
-    --muted: #6b7280;
-    --accent: #6366f1;
-    --accent-dark: #4338ca;
-    --border: rgba(99, 102, 241, 0.18);
+    --text: #312d41;
+    --muted: #9d7d9b;
+    --accent: #ec4899;
+    --accent-dark: #be185d;
+    --border: rgba(236, 72, 153, 0.18);
     --radius: 16px;
     font-size: 16px;
 }
@@ -20,7 +20,7 @@ html, body {
     margin: 0;
     padding: 0;
     min-height: 100%;
-    background: radial-gradient(circle at top, #eef2ff 0%, #f8fafc 65%);
+    background: radial-gradient(circle at top, #ffe6f0 0%, #fff5fb 65%);
     color: var(--text);
     font-family: Inter, system-ui, sans-serif;
 }
@@ -93,7 +93,7 @@ a {
 
 .site-nav-item:hover,
 .site-nav-item:focus-visible {
-    background: rgba(139, 92, 246, 0.16);
+    background: rgba(236, 72, 153, 0.16);
 }
 
 .header-cta {
@@ -124,7 +124,7 @@ a {
     border-radius: var(--radius);
     text-align: center;
     margin-bottom: 40px;
-    box-shadow: 0 20px 60px rgba(15, 23, 42, 0.08);
+    box-shadow: 0 20px 60px rgba(236, 72, 153, 0.14);
 }
 
 .hero-title {
@@ -235,7 +235,7 @@ a {
     border: 1px solid var(--border);
     border-radius: var(--radius);
     min-height: 140px;
-    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+    box-shadow: 0 10px 30px rgba(236, 72, 153, 0.12);
 }
 
 .team-name {
@@ -255,7 +255,7 @@ a {
     border: 1px solid var(--border);
     border-radius: var(--radius);
     margin-bottom: 14px;
-    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+    box-shadow: 0 10px 30px rgba(236, 72, 153, 0.12);
 }
 
 .faq-item strong {
@@ -276,7 +276,7 @@ a {
     border: 1px solid var(--border);
     border-radius: var(--radius);
     margin-bottom: 16px;
-    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+        box-shadow: 0 10px 30px rgba(236, 72, 153, 0.12);
 }
 
 .testimonial-text {
@@ -329,7 +329,7 @@ a {
 
 .footer-nav-item:hover,
 .footer-nav-item:focus-visible {
-    background: rgba(139, 92, 246, 0.16);
+    background: rgba(236, 72, 153, 0.16);
 }
 
 .footer-note {
