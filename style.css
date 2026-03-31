@@ -1,11 +1,11 @@
 :root {
-    --bg: #fff5fb;
-    --surface: #ffffff;
-    --text: #312d41;
-    --muted: #9d7d9b;
-    --accent: #ec4899;
-    --accent-dark: #be185d;
-    --border: rgba(236, 72, 153, 0.18);
+    --bg: #100a20;
+    --surface: #1f1436;
+    --text: #ece6ff;
+    --muted: #b8a3d6;
+    --accent: #a78bfa;
+    --accent-dark: #7c3aed;
+    --border: rgba(167, 139, 250, 0.18);
     --radius: 16px;
     font-size: 16px;
 }
@@ -20,7 +20,7 @@ html, body {
     margin: 0;
     padding: 0;
     min-height: 100%;
-    background: radial-gradient(circle at top, #ffe6f0 0%, #fff5fb 65%);
+    background: radial-gradient(circle at top, #38205d 0%, #100a20 65%);
     color: var(--text);
     font-family: Inter, system-ui, sans-serif;
 }
@@ -35,7 +35,7 @@ a {
 }
 
 .site-header {
-    background: rgba(255, 255, 255, 0.92);
+    background: rgba(20, 10, 35, 0.92);
     border-bottom: 1px solid var(--border);
     position: sticky;
     top: 0;
@@ -93,7 +93,7 @@ a {
 
 .site-nav-item:hover,
 .site-nav-item:focus-visible {
-    background: rgba(236, 72, 153, 0.16);
+    background: rgba(167, 139, 250, 0.18);
 }
 
 .header-cta {
@@ -119,12 +119,12 @@ a {
 
 .hero {
     padding: 64px 32px;
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(31, 20, 55, 0.95);
     border: 1px solid var(--border);
     border-radius: var(--radius);
     text-align: center;
     margin-bottom: 40px;
-    box-shadow: 0 20px 60px rgba(236, 72, 153, 0.14);
+    box-shadow: 0 20px 60px rgba(167, 139, 250, 0.16);
 }
 
 .hero-title {
@@ -184,7 +184,7 @@ a {
 
 .features-item {
     padding: 18px 20px;
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(31, 20, 55, 0.95);
     border: 1px solid var(--border);
     border-radius: var(--radius);
     color: var(--text);
@@ -198,7 +198,7 @@ a {
 
 .pricing-card {
     padding: 24px;
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(31, 20, 55, 0.95);
     border: 1px solid var(--border);
     border-radius: var(--radius);
     text-align: center;
@@ -208,8 +208,8 @@ a {
 .pricing-card:hover,
 .pricing-card:focus-within {
     transform: translateY(-3px);
-    border-color: rgba(139, 92, 246, 0.3);
-    box-shadow: 0 20px 40px rgba(139, 92, 246, 0.14);
+    border-color: rgba(167, 139, 250, 0.3);
+    box-shadow: 0 20px 40px rgba(167, 139, 250, 0.14);
 }
 
 .pricing-card h3 {
@@ -231,11 +231,11 @@ a {
 
 .team-member {
     padding: 22px;
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(31, 20, 55, 0.95);
     border: 1px solid var(--border);
     border-radius: var(--radius);
     min-height: 140px;
-    box-shadow: 0 10px 30px rgba(236, 72, 153, 0.12);
+    box-shadow: 0 10px 30px rgba(167, 139, 250, 0.12);
 }
 
 .team-name {
@@ -251,11 +251,11 @@ a {
 
 .faq-item {
     padding: 20px 22px;
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(31, 20, 55, 0.95);
     border: 1px solid var(--border);
     border-radius: var(--radius);
     margin-bottom: 14px;
-    box-shadow: 0 10px 30px rgba(236, 72, 153, 0.12);
+    box-shadow: 0 10px 30px rgba(167, 139, 250, 0.12);
 }
 
 .faq-item strong {
@@ -272,11 +272,11 @@ a {
 
 .testimonial {
     padding: 22px;
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(31, 20, 55, 0.95);
     border: 1px solid var(--border);
     border-radius: var(--radius);
     margin-bottom: 16px;
-        box-shadow: 0 10px 30px rgba(236, 72, 153, 0.12);
+        box-shadow: 0 10px 30px rgba(167, 139, 250, 0.12);
 }
 
 .testimonial-text {
@@ -291,7 +291,7 @@ a {
 }
 
 .site-footer {
-    background: rgba(255, 255, 255, 0.96);
+    background: rgba(20, 10, 35, 0.96);
     border-top: 1px solid var(--border);
 }
 
@@ -329,7 +329,7 @@ a {
 
 .footer-nav-item:hover,
 .footer-nav-item:focus-visible {
-    background: rgba(236, 72, 153, 0.16);
+    background: rgba(167, 139, 250, 0.18);
 }
 
 .footer-note {
