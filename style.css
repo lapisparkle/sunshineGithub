@@ -1,11 +1,11 @@
 :root {
-    --bg: #090816;
-    --surface: #121026;
-    --text: #e9e7ff;
-    --muted: #b8b0ff;
-    --accent: #8b5cf6;
-    --accent-dark: #6d28d9;
-    --border: rgba(139, 92, 246, 0.18);
+    --bg: #f8fafc;
+    --surface: #ffffff;
+    --text: #111827;
+    --muted: #6b7280;
+    --accent: #6366f1;
+    --accent-dark: #4338ca;
+    --border: rgba(99, 102, 241, 0.18);
     --radius: 16px;
     font-size: 16px;
 }
@@ -20,7 +20,7 @@ html, body {
     margin: 0;
     padding: 0;
     min-height: 100%;
-    background: radial-gradient(circle at top, #1b1135 0%, #090816 65%);
+    background: radial-gradient(circle at top, #eef2ff 0%, #f8fafc 65%);
     color: var(--text);
     font-family: Inter, system-ui, sans-serif;
 }
@@ -35,7 +35,7 @@ a {
 }
 
 .site-header {
-    background: rgba(17, 13, 41, 0.96);
+    background: rgba(255, 255, 255, 0.92);
     border-bottom: 1px solid var(--border);
     position: sticky;
     top: 0;
@@ -119,12 +119,12 @@ a {
 
 .hero {
     padding: 64px 32px;
-    background: rgba(25, 19, 54, 0.95);
+    background: rgba(255, 255, 255, 0.95);
     border: 1px solid var(--border);
     border-radius: var(--radius);
     text-align: center;
     margin-bottom: 40px;
-    box-shadow: 0 20px 60px rgba(17, 12, 45, 0.25);
+    box-shadow: 0 20px 60px rgba(15, 23, 42, 0.08);
 }
 
 .hero-title {
@@ -184,7 +184,7 @@ a {
 
 .features-item {
     padding: 18px 20px;
-    background: rgba(20, 14, 45, 0.95);
+    background: rgba(255, 255, 255, 0.95);
     border: 1px solid var(--border);
     border-radius: var(--radius);
     color: var(--text);
@@ -198,7 +198,7 @@ a {
 
 .pricing-card {
     padding: 24px;
-    background: rgba(20, 14, 45, 0.95);
+    background: rgba(255, 255, 255, 0.95);
     border: 1px solid var(--border);
     border-radius: var(--radius);
     text-align: center;
@@ -231,11 +231,11 @@ a {
 
 .team-member {
     padding: 22px;
-    background: rgba(20, 14, 45, 0.95);
+    background: rgba(255, 255, 255, 0.95);
     border: 1px solid var(--border);
     border-radius: var(--radius);
     min-height: 140px;
-    box-shadow: 0 10px 30px rgba(17, 12, 45, 0.22);
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
 }
 
 .team-name {
@@ -251,11 +251,11 @@ a {
 
 .faq-item {
     padding: 20px 22px;
-    background: rgba(20, 14, 45, 0.95);
+    background: rgba(255, 255, 255, 0.95);
     border: 1px solid var(--border);
     border-radius: var(--radius);
     margin-bottom: 14px;
-    box-shadow: 0 10px 30px rgba(17, 12, 45, 0.22);
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
 }
 
 .faq-item strong {
@@ -272,11 +272,11 @@ a {
 
 .testimonial {
     padding: 22px;
-    background: rgba(20, 14, 45, 0.95);
+    background: rgba(255, 255, 255, 0.95);
     border: 1px solid var(--border);
     border-radius: var(--radius);
     margin-bottom: 16px;
-    box-shadow: 0 10px 30px rgba(17, 12, 45, 0.22);
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
 }
 
 .testimonial-text {
@@ -291,7 +291,7 @@ a {
 }
 
 .site-footer {
-    background: rgba(17, 13, 41, 0.96);
+    background: rgba(255, 255, 255, 0.96);
     border-top: 1px solid var(--border);
 }
 
